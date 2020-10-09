@@ -1,1 +1,29 @@
-/* Add your CSS here */
+*{
+  display: flex;
+  flex-direction: column;
+}
+
+#boxes{
+  margin: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 150%;
+}
+
+p{
+  color: white;
+  background-color: red;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#head{
+  
+  font-size: 900%;
+}
+#computers{
+  font-size: 200%;
+}
