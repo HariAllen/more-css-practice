@@ -1,10 +1,23 @@
-#sides{
-  
-  flex-direction: column;
+* {
+  display: flex;
+
 
 }
-#abouts{
 
-  flex-wrap: wrap;
-  justify-content: flex-end;
+#sides {
+  border: 1px solid black;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+
+
+}
+
+#abouts {
+  border: 1px solid black;
+  flex-direction: column;
+  width: 75%;
+  justify-content: center;
+
+
 }
