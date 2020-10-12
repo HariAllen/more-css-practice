@@ -1,1 +1,17 @@
-/* Add your CSS here */
+*{
+  font-size: 40px;
+}
+#search{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+
+
+}
+
+#choice{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
